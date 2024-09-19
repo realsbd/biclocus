@@ -1,7 +1,18 @@
-# FastAPI-Boilerplate
+# Biclocus
+There are two options to run the app locally:
+1. Run the app in a Docker container
+## How to get started
+set the environment variables in the `.env` file
+`ENV_STATE` can be set to either `dev` or `prod`
 
-FastAPI Starter: A simple and intuitive example repository showcasing basic functionality and best practices for building web APIs with FastAPI. Use this as a template or reference for accelerating your FastAPI projects
+You can run the app locally by running the following command:
 
+```bash
+docker compose up --build
+```
+This will run all the services in the docker-compose.yml file.
+
+2. Run the app locally
 ## How to get started
 
 ```bash
